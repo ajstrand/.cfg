@@ -1,6 +1,11 @@
 # location of zshrc file ~/.zshrc
 #  need write instructions for installing homebrew, oh-my-zsh, rust
-
+# install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# install homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+#install Rust (unix)
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 # URL for what I did for setup https://www.atlassian.com/git/tutorials/dotfiles
 # along with the bare text
 
