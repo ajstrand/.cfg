@@ -105,3 +105,5 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH="/usr/local/sbin:$PATH"
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+eval "$(starship init zsh)"
+
