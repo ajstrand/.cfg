@@ -30,6 +30,8 @@ Plug 'rstacruz/vim-closer'
 " Improved motion in Vim
 Plug 'easymotion/vim-easymotion'
 
+Plug 'wincent/terminus'           | " Mouse support
+
 " Intellisense Engine
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
@@ -87,6 +89,7 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'jparise/vim-graphql'
 Plug 'kristijanhusak/vim-hybrid-material'
 Plug 'udalov/kotlin-vim'
+Plug 'evanleck/vim-svelte', {'branch': 'main'}
 
 Plug 'janko-m/vim-test'
 
