@@ -93,5 +93,7 @@ Plug 'evanleck/vim-svelte', {'branch': 'main'}
 
 Plug 'janko-m/vim-test'
 
+Plug 'ap/vim-css-color'
+
 " Initialize plugin system
 call plug#end()
